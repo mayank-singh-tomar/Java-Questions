@@ -1,0 +1,47 @@
+Given an integer, return True if it is even, else return False.
+Given two integers, return the larger one.
+Given a temperature in Celsius, convert it to Fahrenheit using the formula F = (C * 1.8) + 32. If the temperature is above 90°F, return True otherwise, return False.
+Given a year, return True if it is a leap year, else return False. A leap year is divisible by 4, except for years that are divisible by 100. However, years that are divisible by 400 are also leap years.
+Given two numbers, a and b, return the value of a/b (return None if b is zero).
+Given a point (x1, y1), return the quadrant (integer values given below) in which this point lies.
+[0: origin, 1: first quadrant, 2: second quadrant, 3: third quadrant, 4: fourth quadrant, 12: positive y-axis, 23: negative x-axis, 34: negative y-axis, 41: positive x-axis]
+Given two points (x1, y1) and (x2, y2), return the slope and intercept of the line joining these two points (the line may be perfectly horizontal or vertical). Input should be in this format : (x1, y1, x2, y2).
+Given a quadratic equation with coefficients a, b and c, return the two solutions (may be real or complex). You should not take the square root of a negative number in your code. Output should be a list of two tuples. So if the roots are 1+2j and 1–2j, the output of the function should be [(1,2), (1,-2)]. If the roots are real, then the second part of both the tuples becomes zero.
+Given three points, return True if they lie on the same straight line, else return False. Input should be in this format : (x1, y1, x2, y2, x3, y3).
+Given three integers, return the smallest one.
+
+For double and float type::
+Double.NaN	Not-a-Number (invalid result of a floating-point operation)
+Double.POSITIVE_INFINITY	Represents positive infinity (1.0 / 0.0)
+Double.NEGATIVE_INFINITY	Represents negative infinity (-1.0 / 0.0)
+Double.MIN_VALUE	Smallest positive nonzero value (4.9E-324)
+Double.MAX_VALUE	Largest possible value (1.7976931348623157E308)
+Float.NaN	Same as Double.NaN, but for float type
+Float.POSITIVE_INFINITY	Positive infinity for float
+Float.NEGATIVE_INFINITY	Negative infinity for float
+
+
+For int and long Types:
+Constant	Description
+Integer.MIN_VALUE	Smallest possible int (-2^31 = -2147483648)
+Integer.MAX_VALUE	Largest possible int (2^31 - 1 = 2147483647)
+Long.MIN_VALUE	Smallest possible long (-2^63)
+Long.MAX_VALUE	Largest possible long (2^63 - 1)
+
+
+For boolean Type:
+Constant	Description
+Boolean.TRUE	Constant for true
+Boolean.FALSE	Constant for false
+For char Type:
+Constant	Description
+Character.MIN_VALUE	Smallest char (\u0000)
+Character.MAX_VALUE	Largest char (\uffff)
+
+
+For byte and short Types:
+Constant	Description
+Byte.MIN_VALUE	Smallest byte (-128)
+Byte.MAX_VALUE	Largest byte (127)
+Short.MIN_VALUE	Smallest short (-32,768)
+Short.MAX_VALUE	Largest short (32,767)
